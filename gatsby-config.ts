@@ -5,10 +5,7 @@ const config: GatsbyConfig = {
     title: `Corpo Code Crafted Studios`,
     siteUrl: `http://www.codecrafted.com/`,
   },
-  pathPrefix: "/codecrafted.co",
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
+  pathPrefix: "",
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
