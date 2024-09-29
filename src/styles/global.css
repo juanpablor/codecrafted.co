@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Bakemono";
+  src: url("../fonts/bakemono_regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: rgb(var(--color-dark-rgb));
+}
+
+.gradient {
+  background: linear-gradient(135deg, rgb(var(--color-purplesemidark-rgb)) 0%, rgb(var(--color-dark-rgb)) 36%, rgb(var(--color-primary-rgb)) 56%, rgb(var(--color-purpledark-rgb)) 100%);
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=global.css.map */
