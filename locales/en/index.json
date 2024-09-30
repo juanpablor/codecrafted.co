@@ -52,7 +52,42 @@
     "business_proposal_desc": "Comprehensive design of a high-quality business proposal, including graphics and layout."    
   },
   "plansPage": {
-    "title": "Plans"
+    "title": "Plans",
+
+    "title_1": "Basic Website",
+    "shortPlan": "Experience Exceptional, Engaging, and Sleek Website UI/UX Design",
+    "single_page_design": "Basic single-page web design.",
+    "predefined_templates": "Use of predefined templates.",
+    "responsive_website": "Responsive website (adaptable to mobile and tablet devices).",
+    "social_media_integration": "Social media integration (links).",
+    "basic_seo": "Basic search engine optimization.",
+    "initial_keyword_setup": "Initial keyword setup (provided by the client).",
+    "basic_technical_support": "Basic technical support during the first month after launch.",
+    "free_hosting": "Free hosting service (Domain configuration access required).",
+    
+    "title_2": "Medium Website",
+    "mediumPlan": "Discover Our Most Unique, Lucrative, and Clean UI/UX Design",
+    "five_pages": "Website design with up to 5 pages.",
+    "adaptation": "Adaptation of predefined template.",
+    "colour_matching": "Colour matching with brand entity.",
+    "details": "Integration of explanatory content linked to details (separate pages, pop-ups, accordions, or collapsibles).",
+    "direct_contact": "Links to direct contact services (Direct call, WhatsApp, FB Messenger).",
+    "cookie_consent_manager": "Custom cookie consent manager.",
+    "seo": "SEO optimization.",
+    "google_analytics": "Google Analytics setup.",
+    "basic_support": "Basic technical support during the first month after launch.",
+    "centralization": "Centralization and dynamic management of content.",
+    
+    "title_3": "Advanced Website",
+    "largePlan": "Unlock the Most Unique, Lucrative, and Clean Web Design for Your Company",
+    "custom_website_design": "Custom website design (This design is provided by the client or contracted as one of our services)",
+    "customizable_menus": "Customizable menus",
+    "content_updated": "Content that can be updated as required for a monthly fee",
+    "integration": "Integration of time-limited banners and campaigns",
+    "seo_strategy": "Comprehensive SEO strategy with monthly monitoring and adjustments.",
+    "support_six_months": "Technical support for six months.",
+    "monthly_maintenance": "Monthly maintenance and updates (monthly fee).",
+    "registration_google": "Registration in Google My Business"
   },
   "contactPage": {
     "title": "Contact"

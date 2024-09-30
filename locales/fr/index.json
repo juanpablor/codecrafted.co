@@ -52,7 +52,42 @@
     "business_proposal_desc": "Conception globale d'une proposition commerciale de haute qualité, incluant des graphiques et une mise en page."    
   },
   "plansPage": {
-    "title": "Plans"
+    "title": "Plans",
+
+    "title_1": "Site web de base",
+    "shortPlan": "Vivez une conception UI/UX de site web exceptionnelle, engageante et élégante",
+    "single_page_design": "Conception web de base, page unique.",
+    "predefined_templates": "Utilisation de modèles prédéfinis.",
+    "responsive_website": "Site web adaptatif (adaptable aux mobiles et tablettes).",
+    "social_media_integration": "Intégration des réseaux sociaux (liens).",
+    "basic_seo": "Optimisation de base pour les moteurs de recherche.",
+    "initial_keyword_setup": "Configuration des mots-clés initiaux (fournis par le client).",
+    "basic_technical_support": "Support technique de base pendant le premier mois après le lancement.",
+    "free_hosting": "Service d'hébergement gratuit (accès à la configuration de domaine requis).",
+
+    "title_2": "Site web moyenne",
+    "mediumPlan": "Découvrez notre design UI/UX le plus unique, lucratif et épuré",
+    "five_pages": "Conception de site web avec jusqu'à 5 pages.",
+    "adaptation": "Adaptation de modèle prédéfini.",
+    "colour_matching": "Correspondance de couleur avec l'entité de marque.",
+    "details": "Intégration de contenu explicatif lié aux détails (pages séparées, pop-ups, accordéons ou collapsibles).",
+    "direct_contact": "Liens vers des services de contact direct (Appel direct, WhatsApp, FB Messenger).",
+    "cookie_consent_manager": "Gestionnaire de consentement aux cookies personnalisé.",
+    "seo": "Optimisation SEO.",
+    "google_analytics": "Configuration de Google Analytics.",
+    "basic_support": "Support technique de base pendant le premier mois après le lancement.",
+    "centralization": "Centralisation et dynamisation des contenus.",
+
+    "title_3": "Site web avancé",
+    "largePlan": "Déverrouillez le design web le plus unique, lucratif et épuré pour votre entreprise",
+    "custom_website_design": "Conception de site web personnalisé (Cette conception est fournie par le client ou engagée comme l'un de nos services)",
+    "customizable_menus": "Menus personnalisables",
+    "content_updated": "Contenu actualisable selon les besoins et moyennant des frais mensuels",
+    "integration": "Intégration de bannières et de campagnes avec une durée limitée",
+    "seo_strategy": "Stratégie SEO complète avec suivi et ajustements mensuels.",
+    "support_six_months": "Support technique pendant six mois.",
+    "monthly_maintenance": "Maintenance mensuelle et mises à jour (frais mensuels).",
+    "registration_google": "Inscription sur Google My Business"
   },
   "contactPage": {
     "title": "Contact"

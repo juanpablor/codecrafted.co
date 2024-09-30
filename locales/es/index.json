@@ -52,7 +52,42 @@
     "business_proposal_desc": "Diseño integral de una propuesta comercial de alta calidad, incluyendo gráficos y maquetación."
   },
   "plansPage": {
-    "title": "Planes"
+    "title": "Planes",
+
+    "title_1": "Sitio web básico",
+    "shortPlan": "Experimenta un diseño de UI/UX de sitio web excepcional, atractivo y elegante",
+    "single_page_design": "Diseño web básico unica pagina.",
+    "predefined_templates": "Utilizacion de plantillas predefinidas.",
+    "responsive_website": "Sitio web responsive (adaptable a móviles y tablets).",
+    "social_media_integration": "Integración de redes sociales (links).",
+    "basic_seo": "Optimización básica para motores de búsqueda.",
+    "initial_keyword_setup": "Configuración de palabras clave iniciales (suministradas por el cliente).",
+    "basic_technical_support": "Soporte técnico básico durante el primer mes después del lanzamiento.",
+    "free_hosting": "Servicio de alojamiento sin costo (Acceso a configuracion de Dominio requerido).",
+    
+    "title_2": "Sitio web medio",
+    "mediumPlan": "Descubre nuestro diseño UI/UX más único, lucrativo y limpio",
+    "five_pages": "Diseño web con hasta 5 páginas.",
+    "adaptation": "Adaptacion de Plantilla predefinida.",
+    "colour_matching": "Match de color con entidad de marca",
+    "details": "Integración contenido explicativo vinculado con detalles (paginas separadas, pop-ups, acordeones o colapsibles).",
+    "direct_contact": "Links hacia servicios de contacto directo (Llamada directa, WhatsApp, FB Messenger)",
+    "cookie_consent_manager": "Cookie consent manager personalizado",
+    "seo": "Optimización SEO.",
+    "google_analytics": "Configuración de Google Analytics.",
+    "basic_support": "Soporte técnico básico durante el primer mes después del lanzamiento.",
+    "centralization": "Centralizacion y dinamizacion de contenidos.",
+    
+    "title_3": "Sitio web avanzado",
+    "largePlan": "Desbloquea el diseño web más único, lucrativo y limpio para tu empresa",
+    "custom_website_design": "Diseño web personalizado (Este diseño es suministrado por el cliente o contratado como uno de nuestros servicios)",
+    "customizable_menus": "Menus personalizables",
+    "content_updated": "Contenido actualizable segun requerimiento y con un costo mensual",
+    "integration": "Integracion de banners y campañas con limite de tiempo",
+    "seo_strategy": "Estrategia SEO integral con monitoreo y ajustes mensuales.",
+    "support_six_months": "Soporte técnico durante seis meses.",
+    "monthly_maintenance": "Mantenimiento mensual y actualizaciones (costo mensual).",
+    "registration_google": "Registro en Google My Business"
   },
   "contactPage": {
     "title": "Contacto"

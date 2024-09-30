@@ -68,13 +68,25 @@ const config: GatsbyConfig = {
           {
             matchPath: '/:lang?/blog/:uid',
             getLanguageFromPath: true,
-            // excludeLanguages: ['es']
+            excludeLanguages: ['es']
           },
           {
             matchPath: '/preview',
             languages: ['en']
           }
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Code Crafted Studios Inc.`,
+        short_name: `CCS Corpo`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `standalone`,
+        icon: `src/images/icon.png`, // Ruta a tu favicon
       },
     },
   ],

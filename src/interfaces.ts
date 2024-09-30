@@ -6,13 +6,20 @@ export interface Menu {
 }
 
 export interface WebItem {
-  title?: string;
+  title: string;
   copy?: string;
 }
 
 export interface WebDevelopment {
   subtitle: string;
   items: WebItem[];
+}
+
+export interface itemPlan {
+  title: string;
+  subtitle: string;
+  items: WebItem[];
+  price: string; 
 }
 
 export interface ServicesPage {
@@ -27,8 +34,10 @@ export interface HomePage {
 }
 
 export interface PlansPage {
-  title: string;
-  copy_1: string;
+  title?: string;
+  short: itemPlan;
+  medium: itemPlan;
+  large: itemPlan;
 }
 
 export interface ContactPage {
