@@ -19,3 +19,53 @@ body {
     background: linear-gradient(135deg,  rgb(var(--color-purplesemidark-rgb)) 0%,rgb(var(--color-dark-rgb)) 36%,rgb(var(--color-primary-rgb)) 56%,rgb(var(--color-purpledark-rgb)) 100%);
     background-repeat: no-repeat;
 }
+
+.klaro {
+    background-color: #f0f0f0; /* Cambia el color de fondo del panel */
+    color: #333; /* Cambia el color del texto */
+    .cookie-modal {
+        border-radius: 8px; /* Redondea las esquinas del modal */
+        padding: 20px;
+        button {
+            background-color: #007acc; /* Color personalizado para los botones */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            &:hover {
+                background-color: rgb(var(--color-purplelight-rgb)) !important;
+                color: rgb(var(--color-purpledark-rgb)) !important;    
+            }
+        }
+        .cm-modal.cm-klaro {
+            background: rgb(var(--color-purplesemidark-rgb));
+        }
+        a {
+            color: rgb(var(--color-purplelight-rgb)) !important;
+        }
+        .cm-list-input:checked+.cm-list-label .slider {
+            background: rgb(var(--color-purplelight-rgb)) !important;
+        }
+        .cm-btn.cm-btn-info {
+            background: rgb(var(--color-purplelight-rgb)) !important;
+            color: rgb(var(--color-purpledark-rgb)) !important;            
+        }
+        .cm-modal .cm-footer .cm-powered-by {
+            display: none;
+        }
+    }
+    .cookie-notice {
+        &:not(.cookie-modal-notice) {
+            background: rgb(var(--color-primary-rgb));
+        }
+        a {
+            color: rgb(var(--color-purplelight-rgb)) !important;
+        }
+        .cm-btn.cm-btn-success {
+            background: rgb(var(--color-purplelight-rgb)) !important;
+            color: rgb(var(--color-purpledark-rgb)) !important;
+        }
+    }
+}
+  
