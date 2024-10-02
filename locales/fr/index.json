@@ -11,7 +11,17 @@
     "get_started": "Commencer"
   },
   "homePage": {
-    "title": "Accueil"
+    "title": "Accueil",
+    "slogan": "Intégrer le design, le développement et le marketing pour un succès durable",
+    "workflow_title": "Notre flux de travail personnalisé",
+    "step_1_title": "Comprendre",
+    "step_1": "La première étape consiste à identifier clairement vos besoins. Sans une compréhension approfondie de votre entreprise, nous ne pouvons pas développer une approche efficace. Notre stratégie d'adaptation couvre un large éventail, et nous devons créer une solution adaptée à votre entreprise.",
+    "step_2_title": "Planifier",
+    "step_2": "Une fois que nous comprenons vos besoins, nous passons à la planification stratégique. Le marketing est essentiel ici, et nous évaluons les options de SEO, PPC et influenceurs pour obtenir des résultats rapides. Nous passons 3 à 4 mois à tester et affiner des stratégies pour assurer les meilleurs résultats possibles.",
+    "step_3_title": "Exécution",
+    "step_3": "Il est maintenant temps d'exécuter le plan. Pour réussir, nous gérons le contenu, la production, le développement, les annonces et l'optimisation des campagnes. Nous formons la meilleure équipe pour votre projet, tirant parti des diverses perspectives de notre réseau créatif. Notre objectif est de produire un contenu unique et de haute qualité qui génère des conversions sur les principales plateformes sociales.",
+    "step_4_title": "Résultat",
+    "step_4": "Nous gérons votre communauté et surveillons la croissance, en gardant la vue d'ensemble à l'esprit. Nous évaluons en continu notre performance, abordons les points clés et trouvons de nouvelles façons d'amplifier votre marque tout en atteignant vos objectifs stratégiques."
   },
   "servicesPage": {
     "title": "Services",
@@ -69,7 +79,7 @@
     "basic_technical_support": "Support technique de base pendant le premier mois après le lancement.",
     "free_hosting": "Service d'hébergement gratuit (accès à la configuration de domaine requis).",
 
-    "title_2": "Site web moyenne",
+    "title_2": "Site web pro",
     "mediumPlan": "Découvrez notre design UI/UX le plus unique, lucratif et épuré",
     "five_pages": "Conception de site web avec jusqu'à 5 pages.",
     "adaptation": "Adaptation de modèle prédéfini.",

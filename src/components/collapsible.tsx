@@ -20,7 +20,7 @@ const Collapsible: React.FC<CollapsibleProps> = ({ development }) => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex relative z-20">
       <ul className="flex flex-col gap-4 mt-6 w-full">
         {development.items.map((item, idx) => (
           <li key={idx} className="w-full">

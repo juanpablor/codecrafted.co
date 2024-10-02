@@ -13,7 +13,13 @@
     "menu": ["home", "services", "plans", "contact"],
     "homePage": {
       "title": "homePage",
-      "copy_1": "copy_1"
+      "copy_1": "slogan",
+      "items": [
+        { "title": "step_1_title", "copy": "step_1" },
+        { "title": "step_2_title", "copy": "step_2" },
+        { "title": "step_3_title", "copy": "step_3" },
+        { "title": "step_4_title", "copy": "step_4" }
+      ]
     },
     "servicesPage": {
       "title": "servicesPage",
@@ -26,7 +32,7 @@
           { "title": "efficient", "copy": "efficient_desc" },
           { "title": "maintenance", "copy": "maintenance_desc" },
           { "title": "compatibility", "copy": "compatibility_desc" },
-          { "title": "security", "copy": "security_desc." },
+          { "title": "security", "copy": "security_desc" },
           { "title": "features", "copy": "features_desc" }
         ]
       },

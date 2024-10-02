@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 @font-face {
     font-family: "Bakemono";
@@ -9,9 +10,20 @@
     font-style: normal;
 }
 
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Bakemono {
+    font-family: "Bakemono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 body {
-    // font-family: "Bakemono", sans-serif;
-    // min-height: 100vh;
     background: rgb(var(--color-dark-rgb));
     background-image: url("../images/bg_3.jpg");
     background-size: cover;
@@ -22,6 +34,10 @@ body {
 .gradient {
     background: linear-gradient(135deg,  rgb(var(--color-purplesemidark-rgb)) 0%,rgb(var(--color-dark-rgb)) 36%,rgb(var(--color-primary-rgb)) 56%,rgb(var(--color-purpledark-rgb)) 100%);
     background-repeat: no-repeat;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
 
 .klaro {

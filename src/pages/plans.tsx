@@ -14,7 +14,7 @@ const PlansPage: React.FC<PageProps> = () => {
 
   const renderPlanItems = (plan: itemPlan) => (
     <div className="border-2 border-purplesemilight rounded-2xl gradient p-2 sm:p-6 grow">
-      <h2 className="text-2xl text-center mt-10">{t(`plansPage.${plan.title}`)}</h2>
+      <h2 className="text-2xl text-center mt-10 bungee-regular">{t(`plansPage.${plan.title}`)}</h2>
       <div className="text-xs text-purplesemilight leading-0 px-12 text-center">
         {t(`plansPage.${plan.subtitle}`)}
       </div>
@@ -30,7 +30,7 @@ const PlansPage: React.FC<PageProps> = () => {
       </ul>
       <div className="text-center mt-6">
         <div className="text-xs text-purplesemilight ">{t("general.starts_from")}</div>
-        <div className="text-4xl font-bolder">{plan.price}</div>
+        <div className="text-4xl font-bolder bungee-regular">{plan.price}</div>
       </div>
       <div className="flex justify-center mt-4">
         <a className="border px-6 py-2 rounded-full gradient" target="_blank" href={info.whatsapp}>{t("general.get_started")}</a>

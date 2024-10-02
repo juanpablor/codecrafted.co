@@ -18,7 +18,7 @@ export interface WebDevelopment {
 export interface itemPlan {
   title: string;
   subtitle: string;
-  items: WebItem[];
+  items: { title: string }[];
   price: string; 
 }
 
@@ -31,6 +31,7 @@ export interface ServicesPage {
 export interface HomePage {
   title: string;
   copy_1: string;
+  items: WebItem[];
 }
 
 export interface PlansPage {
@@ -46,7 +47,7 @@ export interface ContactPage {
 }
 
 export interface Company {
-  whatsapp: string | undefined;
+  whatsapp: string;
   companyName: string;
   address: string;
   city: string;
