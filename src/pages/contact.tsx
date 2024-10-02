@@ -13,7 +13,7 @@ const ContactPage: React.FC<PageProps> = () => {
 
   return (
     <Layout data={info} bgImage={images.bg_2}>
-      <h1>{t("plansPage.title")}</h1>
+      <h1>{t("contactPage.title")}</h1>
 
     </Layout>
   );
