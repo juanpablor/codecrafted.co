@@ -4,7 +4,7 @@ import Layout from "./layout"
 import data from "../data/data.json";
 import { Company } from "../interfaces";
 
-const info:Company = data;
+const info:Company = data[0];
 
 const NotFoundPage: React.FC<PageProps> = () => {
   return (

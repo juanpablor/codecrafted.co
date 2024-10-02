@@ -13,6 +13,10 @@ body {
     // font-family: "Bakemono", sans-serif;
     // min-height: 100vh;
     background: rgb(var(--color-dark-rgb));
+    background-image: url("../images/bg_3.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .gradient {
@@ -21,13 +25,13 @@ body {
 }
 
 .klaro {
-    background-color: #f0f0f0; /* Cambia el color de fondo del panel */
-    color: #333; /* Cambia el color del texto */
+    background-color: #f0f0f0;
+    color: #333;
     .cookie-modal {
-        border-radius: 8px; /* Redondea las esquinas del modal */
+        border-radius: 8px;
         padding: 20px;
         button {
-            background-color: #007acc; /* Color personalizado para los botones */
+            background-color: #007acc;
             color: #fff;
             border: none;
             padding: 10px 20px;

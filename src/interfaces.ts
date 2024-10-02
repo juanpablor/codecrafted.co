@@ -46,6 +46,7 @@ export interface ContactPage {
 }
 
 export interface Company {
+  whatsapp: string | undefined;
   companyName: string;
   address: string;
   city: string;
@@ -65,4 +66,5 @@ export interface Company {
 export interface LayoutProps {
   children: React.ReactNode;
   data?: Company;
+  bgImage?: string;
 }

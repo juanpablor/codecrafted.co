@@ -1,107 +1,114 @@
-{
-  "companyName": "Code Crafted Studios Inc.",
-  "address": "108 Rue St Hubert",
-  "city": "Chateauguay",
-  "province": "Quebec",
-  "country": "Canada",
-  "phone": "+1 438 877 6270",
-  "email": "juanpablo@riano.ca",
-  "instagram": "instagram URL",
-  "facebook": "facebook url",
-  "menu": ["home", "services", "plans", "contact"],
-  "homePage": {
-    "title": "homePage",
-    "copy_1": "copy_1"
-  },
-  "servicesPage": {
-    "title": "servicesPage",
-    "web": {
-      "subtitle": "Desarrollo web",
-      "items": [
-        {"title": "atractive_design",  "copy": "atractive_design_desc"},
-        {"title": "functionality",  "copy": "functionality_desc"},
-        {"title": "seo",  "copy": "seo_desc"},
-        {"title": "efficient",  "copy": "efficient_desc"},
-        {"title": "maintenance",  "copy": "maintenance_desc"},
-        {"title": "compatibility",  "copy": "compatibility_desc"},
-        {"title": "security",  "copy": "security_desc."},
-        {"title": "features",  "copy": "features_desc"
-        }
-      ]
+[
+  {
+    "companyName": "Code Crafted Studios Inc.",
+    "address": "108 Rue St Hubert",
+    "city": "Chateauguay",
+    "province": "Quebec",
+    "country": "Canada",
+    "phone": "+1 438 877 6270",
+    "email": "juanpablo@riano.ca",
+    "instagram": "instagram URL",
+    "facebook": "facebook url",
+    "whatsapp": "https://wa.me/14388776270",
+    "menu": ["home", "services", "plans", "contact"],
+    "homePage": {
+      "title": "homePage",
+      "copy_1": "copy_1"
     },
-    "design": {
-      "subtitle": "Design",
-      "items": [
-        {"title": "identity",  "copy": "identity_desc"},
-        {"title": "website",  "copy": "website_desc"},
-        {"title": "packaging",  "copy": "packaging_desc"},
-        {"title": "advertising",  "copy": "advertising_desc"},
-        {"title": "corporate_magazine",  "copy": "corporate_magazine_desc"},
-        {"title": "custom_illustration",  "copy": "custom_illustration_desc"},
-        {"title": "promotional_video",  "copy": "promotional_video_desc"},
-        {"title": "mobile_application",  "copy": "mobile_application_desc"},
-        {"title": "corporate_merchandise",  "copy": "corporate_merchandise_desc"},
-        {"title": "business_proposal",  "copy": "business_proposal_desc"
-        }
-      ]
-    }
-  },
-  "plansPage": {
-    "title": "plansPage",
-    "short": {
-      "title": "title_1",
-      "subtitle": "shortPlan",
-      "items": [
-        {"title": "single_page_design"},
-        {"title": "predefined_templates"},
-        {"title": "responsive_website"},
-        {"title": "social_media_integration"},
-        {"title": "basic_seo"},
-        {"title": "initial_keyword_setup"},
-        {"title": "basic_technical_support"},
-        {"title": "free_hosting"}
-      ],
-      "price": "440"
+    "servicesPage": {
+      "title": "servicesPage",
+      "web": {
+        "subtitle": "Desarrollo web",
+        "items": [
+          { "title": "atractive_design", "copy": "atractive_design_desc" },
+          { "title": "functionality", "copy": "functionality_desc" },
+          { "title": "seo", "copy": "seo_desc" },
+          { "title": "efficient", "copy": "efficient_desc" },
+          { "title": "maintenance", "copy": "maintenance_desc" },
+          { "title": "compatibility", "copy": "compatibility_desc" },
+          { "title": "security", "copy": "security_desc." },
+          { "title": "features", "copy": "features_desc" }
+        ]
+      },
+      "design": {
+        "subtitle": "Design",
+        "items": [
+          { "title": "identity", "copy": "identity_desc" },
+          { "title": "website", "copy": "website_desc" },
+          { "title": "packaging", "copy": "packaging_desc" },
+          { "title": "advertising", "copy": "advertising_desc" },
+          { "title": "corporate_magazine", "copy": "corporate_magazine_desc" },
+          {
+            "title": "custom_illustration",
+            "copy": "custom_illustration_desc"
+          },
+          { "title": "promotional_video", "copy": "promotional_video_desc" },
+          { "title": "mobile_application", "copy": "mobile_application_desc" },
+          {
+            "title": "corporate_merchandise",
+            "copy": "corporate_merchandise_desc"
+          },
+          { "title": "business_proposal", "copy": "business_proposal_desc" }
+        ]
+      }
     },
-    "medium": {
-      "title": "title_2",
-      "subtitle": "mediumPlan",
-      "items": [
-        {"title": "five_pages"},
-        {"title": "adaptation"},
-        {"title": "colour_matching"},
-        {"title": "responsive_website"},
-        {"title": "details"},
-        {"title": "direct_contact"},
-        {"title": "cookie_consent_manager"},
-        {"title": "seo"},
-        {"title": "google_analytics"},
-        {"title": "basic_support"},
-        {"title": "centralization"},
-        {"title": "free_hosting"}
-      ],
-      "price": "750"
+    "plansPage": {
+      "title": "plansPage",
+      "short": {
+        "title": "title_1",
+        "subtitle": "shortPlan",
+        "items": [
+          { "title": "single_page_design" },
+          { "title": "predefined_templates" },
+          { "title": "responsive_website" },
+          { "title": "social_media_integration" },
+          { "title": "basic_seo" },
+          { "title": "initial_keyword_setup" },
+          { "title": "basic_technical_support" },
+          { "title": "free_hosting" }
+        ],
+        "price": "$350 USD"
+      },
+      "medium": {
+        "title": "title_2",
+        "subtitle": "mediumPlan",
+        "items": [
+          { "title": "five_pages" },
+          { "title": "adaptation" },
+          { "title": "colour_matching" },
+          { "title": "responsive_website" },
+          { "title": "details" },
+          { "title": "direct_contact" },
+          { "title": "cookie_consent_manager" },
+          { "title": "seo" },
+          { "title": "google_analytics" },
+          { "title": "basic_support" },
+          { "title": "centralization" },
+          { "title": "free_hosting" }
+        ],
+        "price": "$550 USD"
+      },
+      "large": {
+        "title": "title_3",
+        "subtitle": "largePlan",
+        "items": [
+          { "title": "custom_website_design" },
+          { "title": "responsive_website" },
+          { "title": "customizable_menus" },
+          { "title": "content_updated" },
+          { "title": "integration" },
+          { "title": "seo_strategy" },
+          { "title": "support_six_months" },
+          { "title": "monthly_maintenance" },
+          { "title": "registration_google" }
+        ],
+        "price": "$1000 USD"
+      }
     },
-    "large": {
-      "title": "title_3",
-      "subtitle": "largePlan",
-      "items": [
-        {"title": "custom_website_design"},
-        {"title": "responsive_website"},
-        {"title": "customizable_menus"},
-        {"title": "content_updated"},
-        {"title": "integration"},
-        {"title": "seo_strategy"},
-        {"title": "support_six_months"},
-        {"title": "monthly_maintenance"},
-        {"title": "registration_google"}
-      ],
-      "price": "1400"
-    }
-  },
 
-  "contactPage": {
-    "title": "contactPage",
-    "copy_1": "copy_1"
+    "contactPage": {
+      "title": "contactPage",
+      "copy_1": "copy_1"
+    }
   }
-}
+]

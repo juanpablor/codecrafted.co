@@ -6,6 +6,10 @@
     "plans": "Plans",
     "contact": "Contact"
   },
+  "general" : {
+    "starts_from": "Starts from",
+    "get_started": "Get started"
+  },
   "homePage": {
     "title": "Home"
   },
