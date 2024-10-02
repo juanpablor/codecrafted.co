@@ -89,3 +89,90 @@ body {
     }
 }
   
+
+
+
+.slash {
+    &:first-child {
+        &:after {
+            width: 100px;
+            left:310px;
+            top:110px
+        }
+        .copy {
+            margin-left: -150px;
+        }
+    }    
+    &:last-child {
+        &:after {
+            width: 100px;
+            left:650px;
+            top:30px
+        }
+        .copy {
+            margin-left: 150px;
+        }
+    }
+    &:nth-child(2) {
+        text-align: center;
+        .arrow {
+            display: flex;
+            position: absolute;
+            right: -12px;
+            top:-16px;
+            font-size: 4rem;
+            color: rgb(var(--color-purplelight-rgb));
+            z-index: 40;
+        }
+    }
+    &:nth-child(3) .title {
+        justify-content: center;
+    }
+       
+    &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        width: 200px;
+        height: 2px;
+        background-color: rgb(var(--color-purplesemilight-rgb));
+        transform: rotate(45deg) rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+
+    }
+}
+
+.slash:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: rgb(var(--color-purplesemilight-rgb));
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.flex-row:not(:last-child) .title::after {
+    background-color: #999;
+}
+
+$startSlash: 220px;
+$startDot: 310px;
+$increment: 140px;
+$count: 4;
+
+@for $i from 0 through $count - 1 {
+  .pos_#{$i}:after {
+    left: $startSlash + $i * $increment;
+  }
+  .pos_#{$i}:before {
+    left: $startDot + $i * $increment;
+  }
+}
