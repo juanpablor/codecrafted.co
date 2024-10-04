@@ -9,7 +9,7 @@ const Layout: React.FC<LayoutProps> = ({ children, data, bgImage }) => {
     <>
     <div className="flex flex-col m-2 sm:m-8 gradient rounded-3xl" style={{
       backgroundImage: `url(${bgImage})`,
-      backgroundSize: "content"
+      backgroundSize: "cover"
     }}>
         <div className="grid grid-flow-col justify-stretch items-center p-2 sm:p-8">
             <div className="flex min-w-32 max-w-52 mx-auto">

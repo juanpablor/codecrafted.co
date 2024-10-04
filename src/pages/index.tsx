@@ -5,7 +5,6 @@ import { Company } from "../interfaces";
 import data from "../data/data.json";
 import Layout from "./layout";
 import images from "../images";
-import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 
 const info: Company = data[0];
 
@@ -37,9 +36,9 @@ const IndexPage: React.FC<PageProps> = () => {
           {items.map((item, index) => {
             const isLastTwoRows = index >= items.length - 2;
             return (
-              <div key={index} className={`flex flex-row items-center relative h-[140px] slash pos_${index} ${isLastTwoRows ? 'reverse' : ''}`}>
-                <div className={`text-2xl self-center w-1/2 mx-8 relative bungee-regular title ${isLastTwoRows ? 'flex justify-end' : ''}`}>{t(`homePage.${item.title}`)} <TbArrowBigRightLinesFilled className="hidden arrow" /></div>
-                <div className={`text-sm w-1/2 mx-8 text-purplesemilight copy`}>{item.copy ? t(`homePage.${item.copy}`) : ""}</div>
+              <div key={index} className={`flex flex-row items-center relative h-[100px] slash pos_${index} ${isLastTwoRows ? 'reverse' : ''}`}>
+                <div className={`text-2xl self-center w-1/2 relative bungee-regular title`}>{t(`homePage.${item.title}`)} </div>
+                <div className={`text-md w-1/2 mx-8 text-purplesemilight copy bg-purpledark py-2 px-4 rounded-2xl`}>{item.copy ? t(`homePage.${item.copy}`) : ""}</div>
               </div>
 
             )

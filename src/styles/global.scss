@@ -25,8 +25,7 @@
 
 body {
     background: rgb(var(--color-dark-rgb));
-    background-image: url("../images/bg_3.jpg");
-    background-size: cover;
+    background-color: #1e1e1e;
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -95,46 +94,63 @@ body {
 .slash {
     &:first-child {
         &:after {
-            width: 100px;
-            left:310px;
-            top:110px
+            width: 73px;
+            left:359px;
+            top:73px
+        }
+        .title {
+            margin-left: -160px;
+            text-align: right;
+            width: 510px;
         }
         .copy {
-            margin-left: -150px;
+            margin-left: 50px;
         }
     }    
     &:last-child {
         &:after {
-            width: 100px;
-            left:650px;
-            top:30px
+            width: 73px;
+            left:612px;
+            top:26px
+        }
+        .title {
+
+            margin-left: 30px;
         }
         .copy {
-            margin-left: 150px;
+            text-align: right;
+            margin-left: 140px;
+            width: 720px;
         }
     }
     &:nth-child(2) {
-        text-align: center;
-        .arrow {
-            display: flex;
-            position: absolute;
-            right: -12px;
-            top:-16px;
-            font-size: 4rem;
-            color: rgb(var(--color-purplelight-rgb));
-            z-index: 40;
+        .title {
+            text-align: right;
+            margin-left: -60px;
+            width: 510px;
+        }
+        .copy {
+            margin-left: 50px;
         }
     }
-    &:nth-child(3) .title {
-        justify-content: center;
+    &:nth-child(3) {
+        .title {
+            margin-left: 40px;
+        }
+        .copy {
+            text-align: right;
+            margin-left: -90px;
+            width: 720px;
+        }
     }
+    
        
     &:after {
         content: "";
         position: absolute;
         top: 50%;
         left: 100%;
-        width: 200px;
+        width: 145px;
         height: 2px;
         background-color: rgb(var(--color-purplesemilight-rgb));
         transform: rotate(45deg) rotate(45deg);
@@ -163,9 +179,9 @@ body {
     background-color: #999;
 }
 
-$startSlash: 220px;
-$startDot: 310px;
-$increment: 140px;
+$startSlash: 300px;
+$startDot: 363px;
+$increment: 100px;
 $count: 4;
 
 @for $i from 0 through $count - 1 {
@@ -176,3 +192,16 @@ $count: 4;
     left: $startDot + $i * $increment;
   }
 }
+
+// .pos_0:after {
+//     left: 360px; 
+// }
+// .pos_1:after {
+//     left: 400px; 
+// }
+// .pos_2:after {
+//     left: 500px; 
+// }
+// .pos_3:after {
+//     left: 610px; 
+// }

@@ -22,8 +22,7 @@
 
 body {
   background: rgb(var(--color-dark-rgb));
-  background-image: url("../images/bg_3.jpg");
-  background-size: cover;
+  background-color: #1e1e1e;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -85,42 +84,53 @@ body {
 }
 
 .slash:first-child:after {
-  width: 100px;
-  left: 310px;
-  top: 110px;
+  width: 73px;
+  left: 359px;
+  top: 73px;
+}
+.slash:first-child .title {
+  margin-left: -160px;
+  text-align: right;
+  width: 510px;
 }
 .slash:first-child .copy {
-  margin-left: -150px;
+  margin-left: 50px;
 }
 .slash:last-child:after {
-  width: 100px;
-  left: 650px;
-  top: 30px;
+  width: 73px;
+  left: 612px;
+  top: 26px;
+}
+.slash:last-child .title {
+  margin-left: 30px;
 }
 .slash:last-child .copy {
-  margin-left: 150px;
+  text-align: right;
+  margin-left: 140px;
+  width: 720px;
 }
-.slash:nth-child(2) {
-  text-align: center;
+.slash:nth-child(2) .title {
+  text-align: right;
+  margin-left: -60px;
+  width: 510px;
 }
-.slash:nth-child(2) .arrow {
-  display: flex;
-  position: absolute;
-  right: -12px;
-  top: -16px;
-  font-size: 4rem;
-  color: rgb(var(--color-purplelight-rgb));
-  z-index: 40;
+.slash:nth-child(2) .copy {
+  margin-left: 50px;
 }
 .slash:nth-child(3) .title {
-  justify-content: center;
+  margin-left: 40px;
+}
+.slash:nth-child(3) .copy {
+  text-align: right;
+  margin-left: -90px;
+  width: 720px;
 }
 .slash:after {
   content: "";
   position: absolute;
   top: 50%;
   left: 100%;
-  width: 200px;
+  width: 145px;
   height: 2px;
   background-color: rgb(var(--color-purplesemilight-rgb));
   transform: rotate(45deg) rotate(45deg);
@@ -148,19 +158,19 @@ body {
 }
 
 .pos_0:after {
-  left: 220px;
+  left: 300px;
 }
 
 .pos_0:before {
-  left: 310px;
+  left: 363px;
 }
 
 .pos_1:after {
-  left: 360px;
+  left: 400px;
 }
 
 .pos_1:before {
-  left: 450px;
+  left: 463px;
 }
 
 .pos_2:after {
@@ -168,13 +178,13 @@ body {
 }
 
 .pos_2:before {
-  left: 590px;
+  left: 563px;
 }
 
 .pos_3:after {
-  left: 640px;
+  left: 600px;
 }
 
 .pos_3:before {
-  left: 730px;
+  left: 663px;
 }/*# sourceMappingURL=global.css.map */
