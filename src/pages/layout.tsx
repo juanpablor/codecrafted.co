@@ -25,7 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ children, data, bgImage }) => {
             <LanguageSelector />
           </div>
         </div>
-        <div className="text-light p-2 sm:p-8 !pt-0">
+        <div className="text-light p-2 sm:p-8 mt-8">
           <main>{children}</main>
         </div>
       </div>

@@ -19,6 +19,17 @@
         { "title": "step_2_title", "copy": "step_2" },
         { "title": "step_3_title", "copy": "step_3" },
         { "title": "step_4_title", "copy": "step_4" }
+      ],
+      "portfolio": [
+        { "title": "Gama y equipos", "copy": "portfolio_1_content", "link": "http://gamayequipos.com/", "image": "gamayequipos" },
+        { "title": "Copygraphos", "copy": "portfolio_2_content", "link": "https://copygraphos.com/", "image": "copygraphos" },
+        { "title": "Amusez-vous", "copy": "portfolio_3_content", "link": "https://amusezvous.ca/", "image": "amusezvous" },
+        { "title": "Jazzy & Bright", "copy": "portfolio_4_content", "link": "https://jnbright.ca/", "image": "jnbright" },
+        { "title": "Point bar lounge", "copy": "portfolio_5_content", "link": "https://pointbarlounge.ca/", "image": "pointbarlounge" },
+        { "title": "Groupe somos", "copy": "portfolio_6_content", "link": "https://groupesomos.ca/", "image": "groupesomos" },
+        { "title": "Manual 3 Arquitectura", "copy": "portfolio_7_content", "link": "http://riano.ca/manual3/", "image": "manual3" },
+        { "title": "Gama ingenieros y arquitectos", "copy": "portfolio_7_content", "link": "https://gamaingarqsas.com/", "image": "gamaingarqsas" },
+        { "title": "Juan Pablo Riano", "copy": "portfolio_7_content", "link": "http://riano.ca/", "image": "riano" }
       ]
     },
     "servicesPage": {

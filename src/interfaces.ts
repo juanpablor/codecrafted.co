@@ -8,6 +8,8 @@ export interface Menu {
 export interface WebItem {
   title: string;
   copy?: string;
+  link?: string;
+  image?: string; 
 }
 
 export interface WebDevelopment {
@@ -32,6 +34,7 @@ export interface HomePage {
   title: string;
   copy_1: string;
   items: WebItem[];
+  portfolio: WebItem[];
 }
 
 export interface PlansPage {
