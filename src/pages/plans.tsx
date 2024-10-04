@@ -40,20 +40,20 @@ const PlansPage: React.FC<PageProps> = () => {
 
   return (
     <Layout data={info} bgImage={images.bg_2}>
-      <div className="flex flex-col sm:flex-row justify-stretch gap-4">
-        <div className="flex flex-col w-full sm:w-1/3">
+      <div className="flex flex-col sm:flex-row justify-center gap-4">
+        <div className="flex flex-col w-full sm:w-1/4">
           <div className="bg-purplelight p-2 flex mx-auto -mb-12 relative z-20 aspect-square rounded-full">
             <img className="w-24" src={images.icon_basic} alt="" />
           </div>
           {renderPlanItems(info.plansPage.short)}
         </div>
-        <div className="flex flex-col w-full sm:w-1/3">
+        <div className="flex flex-col w-full sm:w-1/4">
         <div className="bg-purplelight p-2 flex mx-auto -mb-12 relative z-20 aspect-square rounded-full">
             <img className="w-24" src={images.icon_pro} alt="" />
           </div>
           {renderPlanItems(info.plansPage.medium)}
         </div>
-        <div className="flex flex-col w-full sm:w-1/3">
+        <div className="flex flex-col w-full sm:w-1/4">
         <div className="bg-purplelight p-2 flex mx-auto -mb-12 relative z-20 aspect-square rounded-full">
             <img className="w-24" src={images.icon_advanced} alt="" />
           </div>

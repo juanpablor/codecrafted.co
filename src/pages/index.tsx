@@ -20,7 +20,7 @@ const IndexPage: React.FC<PageProps> = () => {
             className="absolute w-24 sm:w-48 z-0 opacity-85 left-44 -top-8"
             alt=""
           />
-          <h1 className="text-sm sm:text-4xl bungee-regular relative z-10">
+          <h1 className="text-2xl sm:text-4xl bungee-regular relative z-10">
             {t("homePage.slogan")}
           </h1>
         </div>
@@ -30,15 +30,15 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
       </div>
 
-      <div className="flex flex-col w-[1024px] mx-auto mt-36">
-        <h2 className="text-4xl text-center bungee-regular">{t("homePage.workflow_title")}</h2>
-        <div className=" mx-auto relative">
+      <div className="flex flex-col w-full sm:w-[1024px] mx-auto mt-36">
+        <h2 className="text-xl sm:text-4xl text-center bungee-regular">{t("homePage.workflow_title")}</h2>
+        <div className=" mx-auto relative mt-4">
           {items.map((item, index) => {
             const isLastTwoRows = index >= items.length - 2;
             return (
-              <div key={index} className={`flex flex-row items-center relative h-[100px] slash pos_${index} ${isLastTwoRows ? 'reverse' : ''}`}>
-                <div className={`text-2xl self-center w-1/2 relative bungee-regular title`}>{t(`homePage.${item.title}`)} </div>
-                <div className={`text-md w-1/2 mx-8 text-purplesemilight copy bg-purpledark py-2 px-4 rounded-2xl`}>{item.copy ? t(`homePage.${item.copy}`) : ""}</div>
+              <div key={index} className={`flex flex-col sm:flex-row items-center my-8 sm:my-0 relative h-auto sm:h-[100px] pos_${index} no-slash sm:slash ${isLastTwoRows ? 'flex-row sm:flex-row-reverse' : ''}`}>
+                <div className={`text-2xl self-center w-full sm:w-1/2 relative bungee-regular title`}>{t(`homePage.${item.title}`)} </div>
+                <div className={`text-md w-full sm:w-1/2 mx-8 text-purplesemilight copy bg-purpledark py-2 px-4 rounded-2xl`}>{item.copy ? t(`homePage.${item.copy}`) : ""}</div>
               </div>
 
             )
