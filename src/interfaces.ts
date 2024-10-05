@@ -62,6 +62,7 @@ export interface Company {
   facebook: string;
   menu: string[];
   homePage: HomePage;
+  linkedin: string;
   servicesPage: ServicesPage;
   plansPage: PlansPage;
   contactPage: ContactPage;

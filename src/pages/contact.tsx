@@ -10,6 +10,7 @@ import {
   FaSquareFacebook,
   FaSquareWhatsapp,
   FaSquarePhone,
+  FaLinkedin
 } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
@@ -56,6 +57,9 @@ const ContactPage: React.FC<PageProps> = () => {
               </a>
               <a href={`https://wa.me/${info.whatsapp}`} target="_blank" className={styles.iconWrapper}>
                 <FaSquareWhatsapp className={styles.icon} />
+              </a>
+              <a href={info.linkedin} target="_blank" className={styles.iconWrapper}>
+                <FaLinkedin className={styles.icon} />
               </a>
             </section>
           </div>
