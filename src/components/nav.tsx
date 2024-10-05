@@ -19,10 +19,8 @@ const Navigation: React.FC<NavProps> = ({ data }) => {
     return null;
   }
 
-  // Elimina el idioma del pathname y la barra final
   const currentPath = pathname.replace(/^\/(es|en|fr)\//, "/").replace(/\/$/, "");
 
-  // Detecta el idioma actual
   const currentLanguagePrefix = `/${i18n.language}`;
   const normalizedPath = pathname.replace(/\/$/, "");
 
@@ -33,14 +31,14 @@ const Navigation: React.FC<NavProps> = ({ data }) => {
   return (
     <nav className={styles.container}>
       <button onClick={toggleMenu} className={styles.burgerButton}>
-        {isMenuOpen ? <FiX className="text-white" size={24} /> : <FiMenu className="text-white" size={24} />}
+        {isMenuOpen ? <FiX className="text-white" size={48} /> : <FiMenu className="text-white" size={48} />}
       </button>
       <ul className={`${styles.buttonsWrapper} ${isMenuOpen ? styles.menuOpen : styles.menuClosed}`}>
         {data.menu.map((item: string, index: number) => {
           const linkTo = item === "home" ? "/" : `/${item}`;
           const isActive = currentPath === linkTo || (pathname.startsWith(`${currentLanguagePrefix}${linkTo}`));
           return (
-            <li key={index}>
+            <li key={index} className={styles.item}>
               <Link
                 to={linkTo}
                 className={`${styles.buttons} ${isActive ? "font-extrabold !text-light" : ""}`}
@@ -62,9 +60,10 @@ export default Navigation;
 
 const styles = {
   container: "inline-block justify-between items-center px-4 py-2 rounded-full relative",
-  burgerButton: "md:hidden block text-white focus:outline-none",
+  burgerButton: "md:hidden block text-white focus:outline-none relative z-[60]",
+  item: "my-4 sm:my-0",
   buttonsWrapper: "flex flex-col md:flex-row justify-center sm:justify-evenly items-center w-full md:w-auto",
-  buttons: "text-purplesemilight px-8 py-2 hover:underline hover:text-purplelight",
+  buttons: "text-purplesemilight px-8 py-2 my-12 sm:my-0 text-xl sm:text-md hover:underline hover:text-purplelight",
   menuOpen: "fixed inset-0 bg-primary text-white z-50 flex flex-col justify-center items-center transition-transform duration-300 ease-in-out transform",
   menuClosed: "hidden md:flex",
 };

@@ -22,8 +22,8 @@ const Collapsible: React.FC<CollapsibleProps> = ({ development, alignText, gradi
   };
 
   return (
-    <div className="flex relative z-20">
-      <ul className="flex flex-col gap-4 mt-6 w-full">
+    <div className={styles.wrapper}>
+      <ul className={styles.items}>
         {development.items.map((item, idx) => (
           <li key={idx} className={`p-8 ${gradientReverse ? "gradient" : "gradient-reverse"}`}>
             {item.title && (
@@ -45,6 +45,8 @@ const Collapsible: React.FC<CollapsibleProps> = ({ development, alignText, gradi
 export default Collapsible;
 
 const styles = {
-  trigger: "flex flex-row p-0 rounded-lg cursor-pointer text-md",
-  content: "text-xs text-purplesemilight"
+  wrapper: "flex relative z-20",
+  items: "flex flex-col gap-4 mt-6 w-full",
+  trigger: "flex flex-row p-0 rounded-lg cursor-pointer text-md bungee-regular",
+  content: "text-sm text-purplesemilight"
 };

@@ -7,8 +7,8 @@
     "country": "Canada",
     "phone": "+1 438 877 6270",
     "email": "juanpablo@riano.ca",
-    "instagram": "instagram URL",
-    "facebook": "facebook url",
+    "instagram": "https://www.instagram.com/code_crafted_studios/",
+    "facebook": "https://www.facebook.com/CodeCraftedStudios/",
     "whatsapp": "https://wa.me/14388776270",
     "menu": ["home", "services", "plans", "contact"],
     "homePage": {
@@ -38,12 +38,10 @@
         "subtitle": "Desarrollo web",
         "items": [
           { "title": "atractive_design", "copy": "atractive_design_desc" },
-          { "title": "functionality", "copy": "functionality_desc" },
           { "title": "seo", "copy": "seo_desc" },
           { "title": "efficient", "copy": "efficient_desc" },
           { "title": "maintenance", "copy": "maintenance_desc" },
           { "title": "compatibility", "copy": "compatibility_desc" },
-          { "title": "security", "copy": "security_desc" },
           { "title": "features", "copy": "features_desc" }
         ]
       },
@@ -51,21 +49,11 @@
         "subtitle": "Design",
         "items": [
           { "title": "identity", "copy": "identity_desc" },
-          { "title": "website", "copy": "website_desc" },
           { "title": "packaging", "copy": "packaging_desc" },
           { "title": "advertising", "copy": "advertising_desc" },
           { "title": "corporate_magazine", "copy": "corporate_magazine_desc" },
-          {
-            "title": "custom_illustration",
-            "copy": "custom_illustration_desc"
-          },
           { "title": "promotional_video", "copy": "promotional_video_desc" },
-          { "title": "mobile_application", "copy": "mobile_application_desc" },
-          {
-            "title": "corporate_merchandise",
-            "copy": "corporate_merchandise_desc"
-          },
-          { "title": "business_proposal", "copy": "business_proposal_desc" }
+          { "title": "mobile_application", "copy": "mobile_application_desc" }
         ]
       }
     },
@@ -124,8 +112,8 @@
     },
 
     "contactPage": {
-      "title": "contactPage",
-      "copy_1": "copy_1"
+      "title": "contactTitle",
+      "copy": "copy"
     }
   }
 ]

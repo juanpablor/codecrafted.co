@@ -45,8 +45,8 @@ export interface PlansPage {
 }
 
 export interface ContactPage {
-  title: string;
-  copy_1: string;
+  title?: string;
+  copy: string;
 }
 
 export interface Company {

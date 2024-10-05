@@ -6,7 +6,7 @@
     "plans": "Planes",
     "contact": "Contacto"
   },
-  "general" : {
+  "general": {
     "starts_from": "Desde",
     "get_started": "Comenzar"
   },
@@ -27,46 +27,36 @@
   },
   "servicesPage": {
     "title": "Servicios",
-    "subtitle_1": "Desarrollo web",
-    "atractive_design": "Diseño atractivo y fácil de usar",
-    "atractive_design_desc": "Podemos trabajar juntos para crear un diseño que no solo se vea bien, sino que también sea intuitivo para los visitantes. Esto implica elegir colores, fuentes y diseño de página que sean atractivos y reflejen la identidad de tu marca. Además, se asegurarán de que la navegación por tu sitio web sea sencilla y que los visitantes puedan encontrar fácilmente lo que están buscando.",
-    "functionality": "Funcionalidad sin problemas",
-    "functionality_desc": "Además de que tu sitio web se vea bien, es importante que funcione correctamente. Nos encargamos de asegurarnos de que todos los elementos interactivos de tu sitio, como botones, formularios y enlaces, funcionen sin problemas. Esto implica probar y corregir cualquier problema técnico que pueda surgir durante el desarrollo.",
-    "seo": "Optimización para motores de búsqueda (SEO)",
-    "seo_desc": "La optimización para motores de búsqueda es crucial para que tu sitio web sea descubierto por las personas que buscan tus productos o servicios en línea. Podemos ayudarte a optimizar tu sitio web para que aparezca más alto en los resultados de búsqueda de Google y otros motores de búsqueda. Esto puede implicar la optimización del contenido, la estructura del sitio y otros aspectos técnicos para mejorar tu visibilidad en línea.",
-    "efficient": "Rendimiento rápido y eficiente",
-    "efficient_desc": "Nadie quiere esperar mucho tiempo a que se cargue un sitio web. Nosotros optimizaremos el rendimiento de tu sitio web, asegurándonos de que cargue rápidamente en todos los dispositivos y conexiones a internet. Esto puede incluir la compresión de imágenes, la optimización del código y el uso de tecnologías que ayuden a acelerar el tiempo de carga de tu sitio.",
-    "maintenance": "Mantenimiento continuo",
-    "maintenance_desc": "Una vez que tu sitio web esté en funcionamiento, necesitará mantenimiento regular para asegurarse de que siga funcionando sin problemas. Nos encargamos de realizar actualizaciones de software, copias de seguridad regulares y resolver cualquier problema técnico que pueda surgir a lo largo del tiempo.",
-    "compatibility": "Compatibilidad con dispositivos móviles",
-    "compatibility_desc": "Cada vez más personas acceden a internet desde sus teléfonos móviles, por lo que es crucial que tu sitio web se vea bien y funcione correctamente en dispositivos móviles y tabletas. Nuestro desarrollo se encarga de que tu sitio web sea completamente receptivo y compatible con una variedad de dispositivos y tamaños de pantalla.",
-    "security": "Seguridad y protección contra hackers",
-    "security_desc": "La seguridad en línea es una preocupación importante para cualquier sitio web. Nosotros implementamos medidas de seguridad para proteger tu sitio web contra posibles ataques de hackers y otros problemas de seguridad. Esto puede incluir la instalación de certificados SSL, la implementación de firewalls y la aplicación de prácticas de seguridad recomendadas.",
-    "features": "Funcionalidades adicionales según tus necesidades",
-    "features_desc": "Dependiendo de tus necesidades específicas, podemos integrar diferentes funcionalidades en tu sitio web. Esto puede incluir la configuración de un sistema de gestión de contenido (CMS) para que puedas actualizar fácilmente el contenido de tu sitio, la integración de sistemas de comercio electrónico para vender productos en línea, la implementación de formularios de contacto y mucho más.",
-    
-    "subtitle_2": "Diseño gráfico",
-    "identity": "Diseño de Identidad Corporativa Completa",
-    "identity_desc": "Incluye logotipo, paleta de colores, tipografía y manual de identidad.",
-    "website": "Diseño de Página Web",
-    "website_desc": "Diseño completo de la interfaz gráfica de una página web de hasta 5 secciones.",
-    "packaging": "Diseño de Packaging",
-    "packaging_desc": "Diseño de empaque para productos con prototipo visual.",
-    "advertising": "Diseño de Campaña Publicitaria Completa",
-    "advertising_desc": "Incluye gráficos, banners, flyers y elementos visuales para una campaña.",
-    "corporate_magazine": "Diseño de Revista Corporativa",
-    "corporate_magazine_desc": "Diseño completo de una revista o catálogo de hasta 20 páginas.",
-    "custom_illustration": "Ilustración Personalizada",
-    "custom_illustration_desc": "Creación de una ilustración original y detallada para cualquier uso corporativo o publicitario.",
-    "promotional_video": "Diseño de Video Promocional",
-    "promotional_video_desc": "Storyboard y diseño de elementos visuales para un video promocional.",
-    "mobile_application": "Diseño de Aplicación Móvil",
-    "mobile_application_desc": "Diseño de la interfaz gráfica para una aplicación móvil de hasta 5 pantallas.",
-    "corporate_merchandise": "Diseño de Merchandising Corporativo",
-    "corporate_merchandise_desc": "Creación de gráficos para productos promocionales como camisetas, tazas, y más.",
-    "business_proposal": "Diseño de Propuesta Comercial",
-    "business_proposal_desc": "Diseño integral de una propuesta comercial de alta calidad, incluyendo gráficos y maquetación."
+
+    "subtitle_1": "Desarrollo Web",
+    "atractive_design": "Diseño centrado en el usuario y funcionalidad",
+    "atractive_design_desc": "Diseñamos sitios web atractivos y fáciles de usar que reflejan tu marca y ofrecen una navegación fluida. Todos los elementos interactivos serán completamente funcionales para garantizar una experiencia óptima.",
+    "seo": "SEO y optimización del rendimiento",
+    "seo_desc": "Optimizamos tu sitio web para que aparezca mejor posicionado en los resultados de búsqueda y aseguramos que cargue rápidamente en todos los dispositivos, optimizando contenido, imágenes y código.",
+    "maintenance": "Mantenimiento y seguridad",
+    "maintenance_desc": "Ofrecemos mantenimiento continuo, actualizaciones regulares, respaldos y robustas medidas de seguridad como certificados SSL y cortafuegos para proteger tu sitio.",
+    "compatibility": "Compatibilidad móvil y multiplataforma",
+    "compatibility_desc": "Nos aseguramos de que tu sitio web sea completamente adaptable y funcione bien en dispositivos móviles, tabletas y computadoras, proporcionando una experiencia consistente en todas las plataformas.",
+    "features": "Funcionalidades personalizadas e integración de comercio electrónico",
+    "features_desc": "Podemos integrar funciones personalizadas según tus necesidades, como sistemas de gestión de contenido (CMS), plataformas de comercio electrónico y elementos interactivos como formularios de contacto.",
+    "efficient": "Pruebas técnicas y optimización",
+    "efficient_desc": "Realizamos pruebas rigurosas para identificar y solucionar problemas técnicos, asegurando que tu sitio sea eficiente, confiable y esté listo para su lanzamiento.",
+
+    "subtitle_2": "Diseño Gráfico",
+    "identity": "Identidad corporativa y diseño web",
+    "identity_desc": "Incluye creación de logotipo, paleta de colores, tipografía, manual de identidad y diseño de interfaz de sitio web de hasta 5 secciones.",
+    "packaging": "Diseño de empaques y productos promocionales",
+    "packaging_desc": "Diseño de empaques de productos con prototipos visuales y gráficos para productos promocionales como camisetas, tazas, etc.",
+    "advertising": "Campaña publicitaria y diseño de propuestas comerciales",
+    "advertising_desc": "Diseño de materiales promocionales para campañas (banners, volantes) y propuestas comerciales de alta calidad con gráficos profesionales.",
+    "corporate_magazine": "Diseño de revistas y ilustraciones personalizadas",
+    "corporate_magazine_desc": "Diseño de revistas o catálogos de hasta 20 páginas, con ilustraciones personalizadas para uso corporativo o publicitario.",
+    "promotional_video": "Gráficos para videos promocionales",
+    "promotional_video_desc": "Diseño de elementos visuales y guiones gráficos para videos promocionales.",
+    "mobile_application": "Diseño de interfaz de aplicaciones móviles",
+    "mobile_application_desc": "Diseño de interfaz de aplicación móvil con hasta 5 pantallas."
   },
+
   "plansPage": {
     "title": "Planes",
 
@@ -80,7 +70,7 @@
     "initial_keyword_setup": "Configuración de palabras clave iniciales (suministradas por el cliente).",
     "basic_technical_support": "Soporte técnico básico durante el primer mes después del lanzamiento.",
     "free_hosting": "Servicio de alojamiento sin costo (Acceso a configuracion de Dominio requerido).",
-    
+
     "title_2": "Sitio web pro",
     "mediumPlan": "Descubre nuestro diseño UI/UX más único, lucrativo y limpio",
     "five_pages": "Diseño web con hasta 5 páginas.",
@@ -93,7 +83,7 @@
     "google_analytics": "Configuración de Google Analytics.",
     "basic_support": "Soporte técnico básico durante el primer mes después del lanzamiento.",
     "centralization": "Centralizacion y dinamizacion de contenidos.",
-    
+
     "title_3": "Sitio web avanzado",
     "largePlan": "Desbloquea el diseño web más único, lucrativo y limpio para tu empresa",
     "custom_website_design": "Diseño web personalizado (Este diseño es suministrado por el cliente o contratado como uno de nuestros servicios)",
@@ -106,6 +96,8 @@
     "registration_google": "Registro en Google My Business"
   },
   "contactPage": {
-    "title": "Contacto"
+    "copy": "Estamos a tu disposición y listos para conectarnos, discutir tus necesidades y ofrecerte soluciones a medida. Ya sea por redes sociales, correo electrónico o teléfono, nuestro equipo está aquí para ayudarte y asegurarnos de que recibas el mejor servicio posible. ¡No dudes en contactarnos en cualquier momento!",
+    "lets_talk": "Conversemos",
+    "follow_us": "Síguenos"
   }
 }
