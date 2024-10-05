@@ -14,15 +14,14 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout data={info} bgImage={images.bg_1}>
       <section className="flex w-full sm:w-[48rem] mx-auto relative h-60">
-        <div className="flex">
           <h1 className="text-2xl sm:text-4xl bungee-regular relative z-10">
             {t("homePage.slogan")}
           </h1>
-        </div>
+ 
+          <div className="absolute left-[30%] bottom-[10%]">
+            <img src={images.bg_6} className="w-96 opacity-40" alt="" />
+          </div>         
 
-        <div className="absolute bottom-0 right-[10%] top-[20%]">
-          <img src={images.bg_6} className="w-72 opacity-40" alt="" />
-        </div>
       </section>
 
       <section className="flex flex-col w-full sm:w-[1024px] mx-auto mt-36">
@@ -55,7 +54,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
       </section>
 
-      <section className="my-16">
+      <section className="my-32">
         <h3 className="text-xl sm:text-4xl text-center bungee-regular">{t("homePage.portfolio_title")}</h3>
         <h4 className="text-md text-purplesemilight text-center">{t("homePage.portfolio_copy")}</h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full md:w-1/2 mx-auto mt-8">
